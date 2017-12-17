@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventerService", "EventerSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventerApp", "EventerApp\EventerApp.csproj", "{FE29EFDC-39F3-4DB1-B5EF-B523D3273E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiCallLibrary", "RestApiCallLibrary\RestApiCallLibrary.csproj", "{ABE65F43-4737-40DF-9C5D-EDE1D1D87FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTest", "WebApiTest\WebApiTest.csproj", "{E942534A-4AD2-410B-9456-76F3D13F0B6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{FE29EFDC-39F3-4DB1-B5EF-B523D3273E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE29EFDC-39F3-4DB1-B5EF-B523D3273E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE29EFDC-39F3-4DB1-B5EF-B523D3273E7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ABE65F43-4737-40DF-9C5D-EDE1D1D87FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE65F43-4737-40DF-9C5D-EDE1D1D87FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE65F43-4737-40DF-9C5D-EDE1D1D87FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE65F43-4737-40DF-9C5D-EDE1D1D87FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E942534A-4AD2-410B-9456-76F3D13F0B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E942534A-4AD2-410B-9456-76F3D13F0B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E942534A-4AD2-410B-9456-76F3D13F0B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E942534A-4AD2-410B-9456-76F3D13F0B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

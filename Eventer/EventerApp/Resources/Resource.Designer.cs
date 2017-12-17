@@ -60,8 +60,17 @@ namespace EventerApp
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050003
+			public const int btnCategories = 2131034115;
+			
 			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			public const int btnToday = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int btnTomorrow = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int btnWeek = 2131034114;
 			
 			static Id()
 			{
@@ -97,6 +106,21 @@ namespace EventerApp
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040005
+			public const int btnCategoriesString = 2130968581;
+			
+			// aapt resource value: 0x7f040002
+			public const int btnTodayString = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int btnTomorrowString = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int btnWeekString = 2130968580;
+			
+			// aapt resource value: 0x7f040006
+			public const int connectionString = 2130968582;
 			
 			static String()
 			{

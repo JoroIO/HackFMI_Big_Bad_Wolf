@@ -1,0 +1,8 @@
+D:\Eventer\Eventer\RestApiCallLibrary\bin\Debug\RestApiCallLibrary.dll
+D:\Eventer\Eventer\RestApiCallLibrary\bin\Debug\RestApiCallLibrary.pdb
+D:\Eventer\Eventer\RestApiCallLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Eventer\Eventer\RestApiCallLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Eventer\Eventer\RestApiCallLibrary\obj\Debug\RestApiCallLibrary.dll
+D:\Eventer\Eventer\RestApiCallLibrary\obj\Debug\RestApiCallLibrary.pdb
+D:\Eventer\Eventer\RestApiCallLibrary\obj\Debug\RestApiCallLibrary.dll.mdb
+D:\Eventer\Eventer\RestApiCallLibrary\bin\Debug\RestApiCallLibrary.dll.mdb

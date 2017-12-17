@@ -13,7 +13,7 @@ namespace EventerService.Controllers
     public class CategoriesController : ApiController
     {
         // GET: api/Categories
-        public string Get()
+        public List<Category> Get()
         {
             DataAccessLayer dal = new DataAccessLayer();
             DataSet ds = dal.ExecuteDataSet("sp_get_categories");
@@ -27,13 +27,15 @@ namespace EventerService.Controllers
                     category.Guid = (Guid)row[0];
                     category.Name = (string)row[1];
 
-                    categories.Add(category);
-                }
+                    categories.Add(category);                }
             }
 
             //var jsonResult = new JavaScriptSerializer().Serialize(categories);
-            var jsonResult = JsonConvert.SerializeObject(categories);
-            return jsonResult;
+            var js = new JavaScriptSerializer();
+            string jsonResult = js.Serialize(categories);
+            //var jsonResult = JsonConvert.SerializeObject(categories);
+            //return jsonResult;
+            return categories;
         }
 
         // GET: api/Categories/{id}

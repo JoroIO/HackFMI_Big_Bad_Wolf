@@ -2,4 +2,9 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">EventerApp</string>
+    <string name="btnTodayString">Today</string>
+    <string name="btnTomorrowString">Tomorrow</string>
+    <string name="btnWeekString">This week</string>
+    <string name="btnCategoriesString">Categories</string>
+    <string name="connectionString">http://169.254.80.80:53743/api/Categories</string>
 </resources>

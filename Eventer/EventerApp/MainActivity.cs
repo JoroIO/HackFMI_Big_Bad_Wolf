@@ -22,9 +22,14 @@ namespace EventerApp
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            Button btnCategories = FindViewById<Button>(Resource.Id.btnCategories);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            btnCategories.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(CategoriesActivity));
+                //intent.PutStringArrayListExtra("phone_numbers", phoneNumbers);
+                StartActivity(intent);
+            };
         }
     }
 }
